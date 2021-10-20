@@ -11,12 +11,28 @@ const Document = require("./models/Document");
 // const URI = `mongodb+srv://admin:${process.env.PASSWORD}@dip-bin.ysmvr.mongodb.net/Randomtext?retryWrites=true&w=majority`;
 const URI = process.env.MONOGODB_URI;
 
-mongoose.connect(URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-});
-
 app.listen(process.env.PORT);
+
+(async () => {
+
+    try{
+        const connection = await mongoose.connect(URI, {
+                            useNewUrlParser: true,
+                            useUnifiedTopology: true
+                        });
+
+        console.log(connection);
+    } catch(e) {
+        console.log(e);
+    }
+    
+})();
+
+// mongoose.connect(URI, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true
+// });
+
 
 app.get('/', (req, res) => {
     const code  = `Sharing code is a good thing, and it should be _really_ easy to do it.
