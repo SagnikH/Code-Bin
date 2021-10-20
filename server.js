@@ -13,6 +13,8 @@ const URI = process.env.MONOGODB_URI;
 
 app.listen(process.env.PORT);
 
+console.log("CHECKKKK!!!!!!!");
+
 (async () => {
 
     try{
