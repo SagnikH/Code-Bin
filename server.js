@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 
 const Document = require("./models/Document");
 // const URI = `mongodb+srv://admin:${process.env.PASSWORD}@dip-bin.ysmvr.mongodb.net/Randomtext?retryWrites=true&w=majority`;
-const URI = process.env.MONOGODB_URI;
+const URI = process.env.MONGODB_URI;
 
 app.listen(process.env.PORT);
 
