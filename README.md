@@ -1,4 +1,3 @@
-# Code Bin
 <img src = "https://github.com/SagnikH/Code-Bin/blob/master/logoCodeBin.jpg">
 <h3 align = "center">Share your code snippets with the help of Code Bin</h3>
 
@@ -9,6 +8,16 @@ This was my side project while learning MongoDB and express js. At the time I wa
 - Shareable code snippet link.
 - You can even duplicate and edit an existing snippet and share again.
 - A permanent storage for your important algorithms.
+
+## Demo
+
+Home Page             |  New snippet
+:-------------------------:|:-------------------------:
+![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/homepage.jpg)  |  ![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/creation.jpg)
+New saved snippet             |  Duplicating an existing snippet
+![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/new.jpg)  |  ![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/duplication.jpg)
+
+[Link to the updated duplicate snippet](https://dipbin.herokuapp.com/620669ac9ae2bb3bdb0d8927)
 
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
