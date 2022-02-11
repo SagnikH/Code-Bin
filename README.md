@@ -1,6 +1,6 @@
 # Code Bin
-<h3 align = "center">A hastebin clone app</h3>
-</br>
+<img src = "https://github.com/SagnikH/Code-Bin/blob/master/logoCodeBin.jpg">
+<h3 align = "center">Share your code snippets with the help of Code Bin</h3>
 
 ## Motivation
 This was my side project while learning MongoDB and express js. At the time I was practicing DSA questions with my friends and sharing answers on whatsapp was becoming an issue. I cam across the Hastebin app and that led me to cloning this web app.
