@@ -19,11 +19,18 @@ New saved snippet             |  Duplicating an existing snippet
 
 [Link to the updated duplicate snippet](https://dipbin.herokuapp.com/620669ac9ae2bb3bdb0d8927)
 
+
+## Prerequisites
+- [MongoDB](https://docs.atlas.mongodb.com)
+- [Node: ^12.x](https://nodejs.org/en)
+- [npm](https://nodejs.org/en/download/package-manager)
+
 ## Environment Variables
 To run this project, you will need to add the following environment variables to your .env file
 
 #### SERVER
 - `PORT` - 4000 (Port on which the server runs)
+- `MONGODB_URI` - Connection String provided by Mongodb Atlas
 
 ## Local Development
 Clone the project
