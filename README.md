@@ -17,7 +17,6 @@ Home Page             |  New snippet
 New saved snippet             |  Duplicating an existing snippet
 ![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/new.jpg)  |  ![](https://github.com/SagnikH/Code-Bin/blob/master/demo_pics/duplication.jpg)
 
-[Link to the above duplicate snippet](https://dipbin.herokuapp.com/620669ac9ae2bb3bdb0d8927)
 
 
 ## Prerequisites
